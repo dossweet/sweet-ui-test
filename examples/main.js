@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import sweetUi from '../packages/index'
+import { SweetButton } from '../packages/index'
 
 Vue.config.productionTip = false
-Vue.use(sweetUi)
+Vue.use(SweetButton)
 new Vue({
   render: h => h(App),
 }).$mount('#app')

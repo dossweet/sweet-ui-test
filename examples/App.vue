@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <sweet-button type="primary">主要按钮</sweet-button>
+    <sweet-button type="primary" disabled>主要按钮</sweet-button>
   </div>
 </template>
 

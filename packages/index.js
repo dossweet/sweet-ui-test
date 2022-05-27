@@ -1,7 +1,7 @@
-import sweetButton from './SweetButton/src/index'
+import SweetButton from './SweetButton/index'
 // 存放组件的数组
 const components = [
-    sweetButton
+    SweetButton
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。
@@ -14,7 +14,8 @@ const install = function (Vue) {
     })
 }
 
-export default {
+export{
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
-    install
+    install,
+    SweetButton
 }
