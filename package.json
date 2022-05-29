@@ -1,10 +1,12 @@
 {
   "name": "sweet-ui-test",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "description": "This is a test UI component library, welcome to download",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
